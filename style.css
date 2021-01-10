@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
+}
+.arrow1b {
+  height: 95vh;
+  
+}
+
+.contain {
+  background: brown;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-transform: uppercase;
+  color: lightgrey;
+  background: rgb(20, 20, 20);
+  font-size: 14rem;
+  overflow: hidden;
+}
+
+.c2 {
+  background: rgb(20, 20, 20);
+  height: 400vh;
+  display: flex;
+  color: lightgray;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.fourofour {
+  
+  display: flex;
+  align-items: center;
+  font-size: 14rem;
+  margin: 30px;
+}
+.four{
+    margin: 100px;
+    color: rgba(205, 103, 153, 1);
+    text-shadow: 4px 4px 2px rgba(255, 110, 150, 1);
+}
+.cactus1a {
+  height: 30vh;
+  position: absolute;
+  left: 0;
+  top: 62%;
+}
+.cactus1b {
+  height: 30vh;
+  position: absolute;
+  right: 0;
+  top: 62%;
+}
+
+.cactus1c {
+  height: 30vh;
+  position: absolute;
+  right: 10%;
+  top: 82%;
+}
+
+.invader1a {
+  height: 25vh;
+
+}
+
+.star3 {
+  height: 13vh;
+  position: absolute;
+  bottom: 43%;
+  opacity: 0;
+  z-index: 2;
+}
+
+
+@media only screen and (max-width: 800px) {
+ 
+  .cactus1a, .cactus1b, .cactus1c, .star3{
+    display: none;
+  }
+  .c2{
+    display: flex;
+   
+  }
+  .fourofour{
+    display: grid;
+    place-items: center;
+    font-size: 10rem;
+  }
+}
